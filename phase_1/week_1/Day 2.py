@@ -65,14 +65,15 @@ print(f"{x:.1%}")
 print("***\n***\n***")  
 """ Or use print("***" * 3) to print *** three times in a row. """
 
+# Print an empty line between two messages
 
+print("Hello\n\nWorld")
 
+"""Predict output: print('a','b',sep='',end='!') then print('c')
+ans ab!c"""
 
-
-
-
-
-
-
-
-
+# Print a function's docstring via __doc__ 
+def greet():
+    """This function greets the user."""
+    print("Hello!")
+print(greet.__doc__)

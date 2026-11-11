@@ -57,3 +57,16 @@ print("a,b,c" . split(","))
 
 z = None
 print(type(z))
+
+# Count Trues in a list using sum()
+
+_list = [True, False, True, True]
+print(sum(_list))
+
+#Get the length of a string 
+
+print(len(y))
+
+# Slice the first three characters of 'Python' 
+
+print(y[0:3])
